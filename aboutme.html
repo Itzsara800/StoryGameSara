@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Sara</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 20px auto; background: #f4f1ea; }
+    h1 { color: #8a3b12; }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>About Me</h1>
+    <p><em>Student, actor, and game designer</em></p>
+  </header>
+
+  <main>
+    <!-- Picture (links back to the home page) -->
+    <a href="index.html">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext y='90' font-size='90'%3E🎭%3C/text%3E%3C/svg%3E" alt="Acting masks">
+    </a>
+
+    <section>
+      <h2>Hi, I'm Sara!</h2>
+      <p>My name is Sara and I am a 12th grade student at Oakland Tech.
+        I made this game to show how small choices can help other people.</p>
+    </section>
+
+    <!-- Interests section -->
+    <section>
+      <h2>My Interests</h2>
+      <p>I am interested in acting and traveling the world with my loml.
+        I also <em>love music</em>.</p>
+
+      <!-- Ordered list with a nested unordered list -->
+      <ol>
+        <li>Acting
+          <ul>
+            <li>Performing on stage</li>
+            <li>Trying new characters</li>
+          </ul>
+        </li>
+        <li>Traveling
+          <ul>
+            <li>Seeing the world with my loml</li>
+            <li>Meeting new people</li>
+          </ul>
+        </li>
+        <li>Music
+          <ul>
+            <li>Listening to my favorite songs</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Fun fact section -->
+    <section>
+      <h2>Fun Fact</h2>
+      <p>I love boba and I love <em>trying new places</em>!</p>
+    </section>
+
+    <p><a href="https://www.oaklandtech.com">Visit Oakland Tech</a></p>
+
+    <!-- Form -->
+    <h2>Ready to Play?</h2>
+    <form action="index.html">
+      <p>
+        <label>Your name:</label><br>
+        <input type="text" name="name">
+      </p>
+
+      <p>
+        <label>Who are you?</label><br>
+        <input type="text" name="who">
+      </p>
+
+      <p>Are you ready to play the game?</p>
+      <input type="radio" name="ready" value="yes"> Yes<br>
+      <input type="radio" name="ready" value="no"> Not yet<br>
+
+      <p><button type="submit">Send</button></p>
+    </form>
+  </main>
+
+  <footer>
+    <p><small>Thanks for visiting!</small></p>
+  </footer>
+
+</body>
+</html>
